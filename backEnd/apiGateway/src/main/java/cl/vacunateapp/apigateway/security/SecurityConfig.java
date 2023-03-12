@@ -56,7 +56,7 @@ public class SecurityConfig {
                 .requestMatchers("/gateway/vaccinator/**").hasRole(Role.ADMIN.name())
                 .requestMatchers("/gateway/patient/**").hasAnyRole(Role.USER.name(), Role.ADMIN.name())
                 .requestMatchers("/gateway/vaccine/update_count_when_patient_vaccinated/**").hasAnyRole(Role.USER.name(), Role.ADMIN.name())
-                .requestMatchers("/gateway/vaccine//update_count/**").hasRole(Role.ADMIN.name())
+                .requestMatchers("/gateway/vaccine/update_count/**", "/gateway/vaccine/list").hasRole(Role.ADMIN.name())
                 .anyRequest().authenticated()
                 .and()
                 .authorizeHttpRequests()

@@ -42,6 +42,7 @@ VacunateApp es una herramienta diseñada para mejorar y agilizar el proceso de v
 - Trello
 ## Acceso al proyecto
 - :construction: En construcción :construction:
+- Actualmente solo esta disponible el backend -> http://18.231.41.125:8080
 ## :smile: Equipo desarrollador 
 - Back-end
 	- Sebastian Espinoza

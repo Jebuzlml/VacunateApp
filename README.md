@@ -12,8 +12,7 @@
 VacunateApp es una herramienta diseñada para mejorar y agilizar el proceso de vacunación en un centro de salud. Esta aplicación proporciona una solución eficiente y fácil de usar tanto para el personal encargado del proceso de  vacunación como para el administrador.
 
 ### Estructura del proyecto
-- ![Estructura VacunateApp](https://github.com/Jebuzlml/vacunateApp/assets/88462855/dee7b628-0d55-4255-b077-4d126ba16d84)
-
+![Estructura de VacunateApp](https://github.com/Jebuzlml/vacunateApp/assets/88462855/053e78cc-bd7c-41cf-9ca7-90b2f66fba44)
 ## :pushpin: Funcionalidades
 - :white_check_mark: Login
 	- Autenticación con JWT

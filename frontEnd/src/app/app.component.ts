@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { environment } from 'environments/environment';
+import { environment } from '@src/environments/environment';
+import{ test } from '@app/test'
 
 @Component({
   selector: 'app-root',
@@ -7,5 +8,5 @@ import { environment } from 'environments/environment';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'client-vacunateApp';
+  title = 'client-vacunateApp-app';
 }
